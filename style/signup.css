@@ -117,6 +117,5 @@ input {
 }
 #submit{
     background-color: #8cc557;
-    display: flex;
     justify-content: center;
 }
