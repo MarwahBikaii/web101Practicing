@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.headDiv{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:20px
+}
+.buttonsDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.gridContainer{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 400px 400px ;
+    grid-template-rows: 50px 50px 50x 50px 50px;
+    gap:15px;
+    margin-top:30px;
+    margin-bottom:30px
+}
+.gridContainer div{
+    display: grid;
+    grid-template-columns: 100px 150px 10px;
+
+}
+input{
+    margin-right:5px
+}
+.tableHead{
+    display: flex;
+    gap:10px;
+    margin-bottom:10px;
+    border: 1px solid black;
+    padding:2px
+}
+.tableContainer{
+ border: 1px solid black;
+ padding:20px;
+ padding-top:5px;
+ margin-bottom:20px
+}
+.summaryDiv{
+    display: grid;
+    grid-template-columns: 800px 100px;
+    color:grey
+}
+.summaryDiv p{
+    text-align: center;
+}
+
+.footerDiv{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    gap:20px
+  
+}
+.left-footer-container{
+    padding-top:50px;
+    gap:10px
+}
+.shipName{
+    margin-bottom:15px
+}
