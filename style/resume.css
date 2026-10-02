@@ -1,0 +1,59 @@
+
+body{
+    padding:50px
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+.intro{
+    display:flex ;
+    justify-content: space-between;
+     gap:50px;
+     padding:50px
+}
+.intro img{
+    max-width:300px;
+    max-height:200px;
+    border-radius:200px;
+}
+.workexpList{
+    list-style-type: upper-alpha;
+}
+.workExp{
+      padding:50px
+}
+ul{
+    margin-bottom:30px
+}
+.projectShowcase img{
+    max-width: 300px;
+    max-height:300px;
+}
+.projectShowcase{
+    display: flex;
+    justify-content: space-around;
+    gap:30px;
+
+}
+h5{
+    font-size: 20px;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+button{
+    background-color: rgb(71, 202, 71);
+    color:white;
+    font-weight: bold;
+    min-height: 50px;
+    border: 4px solid transparent
+}
+h2{font-weight: bold; font-size: 30px;}
+input{min-height:50px}
